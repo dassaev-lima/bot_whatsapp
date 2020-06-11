@@ -10,7 +10,7 @@ class WhatsappBot:
         #definindo configurações para usar o webdriver no navegador
         options = webdriver.ChromeOptions()
         options.add_argument("lang=pt-br")
-        self.driver = webdriver.Chrome(executable_path=r'.././chromedriver')
+        self.driver = webdriver.Chrome(executable_path=r'./chromedriver')
     
     def enviar_mensagem(self):
         #Acessando o site
