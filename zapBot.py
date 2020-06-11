@@ -10,7 +10,7 @@ class WhatsappBot:
         #definindo configurações para usar o webdriver no navegador
         options = webdriver.ChromeOptions()
         options.add_argument("lang=pt-br")
-        self.driver = webdriver.Chrome(executable_path=r'./chromedriver')
+        self.driver = webdriver.Chrome(executable_path=r'.././chromedriver')
     
     def enviar_mensagem(self):
         #Acessando o site
@@ -35,5 +35,5 @@ class WhatsappBot:
 
             
 #Instanciando a classe e invocando o método de enviar a mensagem      
-zap_bot = WhatsappBot()
-zap_bot.enviar_mensagem()
+#zap_bot = WhatsappBot()
+#zap_bot.enviar_mensagem()
